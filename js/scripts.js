@@ -1,6 +1,7 @@
   jQuery(document).ready(function() {
-    jQuery('p').click(function() {
-      $("img").show();
+    jQuery('.clickable').click(function() {
+      $(".walrus-showing").toggle();
+      $(".walrus-hidden").toggle();
     });
   });
   
